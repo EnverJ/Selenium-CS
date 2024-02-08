@@ -1,0 +1,30 @@
+﻿{
+  "Register": [
+    {
+      "firstName": "enf1",
+      "lastName": "sdfs1",
+      "Email": "skjdfhsajkdf1",
+      "Password": "kfjdslfjl$s1"
+    },
+    {
+      "firstName": "enf2",
+      "lastName": "sdfs2",
+      "Email": "skjdfhsajkdf2",
+      "Password": "kfjdslfjl2$s"
+    },
+    {
+      "firstName": "enf3",
+      "lastName": "sdfs3",
+      "Email": "skjdfhsajkdf3",
+      "Password": "kfjdslfjl3$s"
+    },
+    {
+      "firstName": "enf4",
+      "lastName": "sdfs4",
+      "Email": "skjdfhsajkdf4",
+      "Password": "kfjdslfjl4$s"
+    }
+
+  ]
+
+}

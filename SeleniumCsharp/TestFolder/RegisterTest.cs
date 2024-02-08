@@ -9,10 +9,11 @@ namespace SeleniumCsharp.Tests
 
 		public HomePage homePage;
 		public RegistrationPage registrationPage;
+		[Category("Smoke")]
 		[Test]
 		// verify fucnitonlaity
 		public void verifyExsistingRegesterFunctionality() {
-			String email = "csfsdfdsdssf12";
+			String email = "csfkxls44sf12";
 			homePage = new HomePage(driver);
 			registrationPage = new RegistrationPage(driver);
             Assert.That(homePage.titleVlaidation, Is.EqualTo("Demo Web Shop"));
@@ -30,6 +31,10 @@ namespace SeleniumCsharp.Tests
 			bool isTrue=registrationPage.isEmalaccoutnDisplayed(email);
 			Assert.IsTrue(isTrue);
         }
+		[Category("Unit test")]
+		[Test]
+		public void verifyLogisDispalyed() {
+		}
 	}
 }
 

@@ -39,9 +39,41 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.ApplicationInsights.NLogTarget": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.5.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "NLog.Extended": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.8, )"
+            },
+            "NLog.Schema": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            },
+            "NLog.Web": {
+              "target": "Package",
+              "version": "[5.3.8, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.8, )"
             },
             "NUnit": {
               "target": "Package",

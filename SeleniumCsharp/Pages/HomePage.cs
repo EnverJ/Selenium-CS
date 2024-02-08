@@ -1,5 +1,6 @@
 ﻿using System;
 using OpenQA.Selenium;
+using SeleniumCsharp.WebDriverExtensions;
 
 namespace SeleniumCsharp.Pages
 {
@@ -21,11 +22,19 @@ namespace SeleniumCsharp.Pages
 		public static readonly By registerLink = By.ClassName("ico-register");
 		public static readonly By loginLink = By.ClassName("ico-login");
 
-		// page methods
-		public void clickRegisterBtn() {
-			driver.FindElement(registerLink).Click();
+		public readonly string registerLinkValue = "Register Link";
+        public readonly string loginLinkValue = "Login Link";
+
+        // page methods
+        public void clickRegisterBtn() {
+			driver.click(registerLink, registerLinkValue);
 		}
 
-	}
+        public void clickLoginBtn()
+        {
+            driver.click(loginLink,loginLinkValue);
+        }
+
+    }
 }
 
